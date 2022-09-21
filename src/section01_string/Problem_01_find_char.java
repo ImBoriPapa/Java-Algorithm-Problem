@@ -1,8 +1,6 @@
-package section01;
+package section01_string;
 
-import java.util.Scanner;
-
-public class Section_01_01 {
+public class Problem_01_find_char {
 
     /**
      * 문자 찾기
@@ -11,7 +9,7 @@ public class Section_01_01 {
      *
      * @return 같은 문자 개수
      */
-    public static int solution(String s, char c) {// 문자열 s, 문자 c
+    public  int solution(String s, char c) {// 문자열 s, 문자 c
 
         //문자열 s를 소문자로 변환(toLowerCase)
         String target = s.toLowerCase();
@@ -31,12 +29,12 @@ public class Section_01_01 {
     }
 
     public static void main(String[] args) {
-
+        Problem_01_find_char p = new Problem_01_find_char();
         String s = "Java is OOP Language";
         char c = 'a';
 
 
-        System.out.println("result =" + solution(s, c));
+        System.out.println("result =" + p.solution(s, c));
 
     }
 }
