@@ -1,5 +1,7 @@
 package section01_string;
 
+import java.util.Scanner;
+
 public class Problem_05_reverse_specific_word {
     /**
      * 영어 알파벳과 특수 문자로 구성된 문자열이 주어지면 알파벳만 뒤집고 특수문자는 자기 자리에 그대로 있는 문자열을 반환
@@ -64,6 +66,8 @@ public class Problem_05_reverse_specific_word {
 
     public static void main(String[] args) {
         Problem_05_reverse_specific_word p = new Problem_05_reverse_specific_word();
+        Scanner sc = new Scanner(System.in);
+        System.out.println(p.solution1(sc.next()));
         String word1 = "A@FBfdf2#2C@!D";
         String word2 = "AV@#!ㄴㄹㅎㅎㅂㅋSFF@$";
 
