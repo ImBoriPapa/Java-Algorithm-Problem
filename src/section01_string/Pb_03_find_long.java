@@ -1,7 +1,7 @@
 package section01_string;
 
 
-public class Problem_03_find_long {
+public class Pb_03_find_long {
     /**
      * 1.한 개의 문장에서 가장 긴 단어를 반환
      * 2.가장 긴 단어가 여러개일 경우 문장속에서 가장 앞쪽에 위치한 단어를 반환
@@ -36,7 +36,7 @@ public class Problem_03_find_long {
     }
 
     public static void main(String[] args) {
-        Problem_03_find_long p = new Problem_03_find_long();
+        Pb_03_find_long p = new Pb_03_find_long();
 
         String s = "A AA AAA AAAA AAAA ";
 

@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 
-public class Problem_04_reverse_word {
+public class Pb_04_reverse_word {
     /**
      * N개의 단어가 주어지면 각 단어를 뒤집어서 출력
      */
@@ -81,7 +81,7 @@ public class Problem_04_reverse_word {
     }
 
     public static void main(String[] args) {
-        Problem_04_reverse_word p = new Problem_04_reverse_word();
+        Pb_04_reverse_word p = new Pb_04_reverse_word();
 
         String s1 = "Pizza";
         String s2 = "Chicken";

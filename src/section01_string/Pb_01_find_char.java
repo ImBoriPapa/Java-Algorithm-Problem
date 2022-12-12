@@ -1,6 +1,6 @@
 package section01_string;
 
-public class Problem_01_find_char {
+public class Pb_01_find_char {
 
     /**
      * 문자 찾기
@@ -29,7 +29,7 @@ public class Problem_01_find_char {
     }
 
     public static void main(String[] args) {
-        Problem_01_find_char p = new Problem_01_find_char();
+        Pb_01_find_char p = new Pb_01_find_char();
         String s = "Java is OOP Language";
         char c = 'a';
 

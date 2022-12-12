@@ -1,7 +1,7 @@
 package section01_string;
 
 
-public class Problem_06_remove_duplication {
+public class Pb_06_remove_duplication {
     /**
      * 중복 문자 제거
      * 소문자로 이루어진 한개의 문자열에서 중복된 문자를 제거하고 출력
@@ -33,7 +33,7 @@ public class Problem_06_remove_duplication {
     }
 
     public static void main(String[] args) {
-        Problem_06_remove_duplication p = new Problem_06_remove_duplication();
+        Pb_06_remove_duplication p = new Pb_06_remove_duplication();
         String s = "aacdzvssgg";
         System.out.println("input= "+s+", distinct result="+p.solution1(s));
         System.out.println("input= "+s+", distinct result="+p.solution2(s));

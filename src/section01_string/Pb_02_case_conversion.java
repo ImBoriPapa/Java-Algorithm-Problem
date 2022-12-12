@@ -1,9 +1,7 @@
 package section01_string;
 
 
-import java.util.Scanner;
-
-public class Problem_02_case_conversion {
+public class Pb_02_case_conversion {
     /**
      * 대문자와 소문자가 같이 존재하는 문자열을 입력받아 대소문자는 소문자로 소문자는 대문자로 변환
      */
@@ -40,7 +38,7 @@ public class Problem_02_case_conversion {
     }
 
     public static void main(String[] args) {
-        Problem_02_case_conversion p = new Problem_02_case_conversion();
+        Pb_02_case_conversion p = new Pb_02_case_conversion();
         String str = "AAAAAccccc";
         System.out.println(p.solution1(str));
         System.out.println(p.solution2(str));

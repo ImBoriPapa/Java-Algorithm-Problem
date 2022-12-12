@@ -5,7 +5,7 @@ package section01_string;
  * 문자열이 입력 되었을 때 문자열이 palindrome 이면 "일치" 아니면 "불일치" 를 반환 합니다.
  * 검사 조건은 알파벳만 , 대소문자 구분 x 하여 알파벳 이외 문자는 무시합니다.
  */
-public class Problem_08_palindrome_alphabet {
+public class Pb_08_palindrome_alphabet {
     public String solution(String s) {
         //문자열을 대문자로 바꾸고 replaceAll()로 정규식을 사용하요 대문자가 아닐경우 공백 처리
         String replaced = s.toUpperCase().replaceAll("[^A-Z]", "");
@@ -16,7 +16,7 @@ public class Problem_08_palindrome_alphabet {
     }
 
     public static void main(String[] args) {
-        Problem_08_palindrome_alphabet p = new Problem_08_palindrome_alphabet();
+        Pb_08_palindrome_alphabet p = new Pb_08_palindrome_alphabet();
 
         String s1 = "test12 is non si tset!#";
         String s2 = "Dream come true";

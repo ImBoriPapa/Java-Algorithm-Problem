@@ -1,7 +1,7 @@
 package section01_string;
 
 
-public class Problem_07_palindrome_string {
+public class Pb_07_palindrome_string {
     /**
      *  주어진 문자열이 앞에서 읽을 때나 뒤에서 읽을 때나 같은 문자열(palindrome,회문 문자열)이면 YES 를 출력, 아니면 NO 를 출력
      *  대소문자를 구분하지 않습니다.
@@ -36,7 +36,7 @@ public class Problem_07_palindrome_string {
     }
 
     public static void main(String[] args) {
-        Problem_07_palindrome_string p = new Problem_07_palindrome_string();
+        Pb_07_palindrome_string p = new Pb_07_palindrome_string();
 
         String input = "Dad";
 
